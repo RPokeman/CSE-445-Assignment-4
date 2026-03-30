@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/RPokeman/CSE-445-Assignment-4/main/NationalParks.xsd">
   <NationalPark Rating="4.9">
-    <Name>Grand Canyon</Name>
+    <Name>Grand Canyon National Park</Name>
     <Phone>928-638-7496</Phone>
     <Phone>888-297-2757</Phone>
     <Phone>866-499-2574</Phone>
@@ -15,7 +16,7 @@
   </NationalPark>
 
   <NationalPark Rating="4.8">
-    <Name>Yellowstone</Name>
+    <Name>Yellowstone National Park</Name>
     <Phone>307-344-7381</Phone>
     <Phone>307-344-2117</Phone>
     <Address NearestAirport="Bozeman">
@@ -28,7 +29,7 @@
   </NationalPark>
 
   <NationalPark>
-    <Name>Yosemite</Name>
+    <Name>Yosemite National Park</Name>
     <Phone>209-372-0200</Phone>
     <Address NearestAirport="Fresno">
       <Number>9039</Number>
@@ -40,7 +41,7 @@
   </NationalPark>
 
   <NationalPark Rating="4.7">
-    <Name>Zion</Name>
+    <Name>Zion National Park</Name>
     <Phone>435-772-3256</Phone>
     <Phone>435-772-7700</Phone>
     <Address NearestAirport="Las Vegas">
@@ -53,7 +54,7 @@
   </NationalPark>
 
   <NationalPark>
-    <Name>Rocky Mountain</Name>
+    <Name>Rocky Mountain National Park</Name>
     <Phone>970-586-1206</Phone>
     <Address NearestAirport="Denver">
       <Number>1000</Number>
@@ -65,7 +66,7 @@
   </NationalPark>
 
   <NationalPark Rating="4.6">
-    <Name>Acadia</Name>
+    <Name>Acadia National Park</Name>
     <Phone>207-288-3338</Phone>
     <Phone>207-288-8813</Phone>
     <Address NearestAirport="Bangor">
@@ -78,7 +79,7 @@
   </NationalPark>
 
   <NationalPark>
-    <Name>Everglades</Name>
+    <Name>Everglades National Park</Name>
     <Phone>305-242-7700</Phone>
     <Address NearestAirport="Miami">
       <Number>40001</Number>
@@ -90,7 +91,7 @@
   </NationalPark>
 
   <NationalPark Rating="4.5">
-    <Name>Glacier</Name>
+    <Name>Glacier National Park</Name>
     <Phone>406-888-7800</Phone>
     <Phone>406-888-7801</Phone>
     <Address NearestAirport="Kalispell">
@@ -103,7 +104,7 @@
   </NationalPark>
 
   <NationalPark>
-    <Name>Olympic</Name>
+    <Name>Olympic National Park</Name>
     <Phone>360-565-3130</Phone>
     <Address NearestAirport="Seattle">
       <Number>600</Number>
@@ -115,7 +116,7 @@
   </NationalPark>
 
   <NationalPark Rating="4.4">
-    <Name>Arches</Name>
+    <Name>Arches National Park</Name>
     <Phone>435-719-2299</Phone>
     <Address NearestAirport="Canyonlands Field">
       <Number>11</Number>
@@ -127,7 +128,7 @@
   </NationalPark>
 
   <NationalPark>
-    <Name>Badlands</Name>
+    <Name>Badlands National Park</Name>
     <Phone>605-433-5361</Phone>
     <Address NearestAirport="Rapid City">
       <Number>25216</Number>
@@ -135,19 +136,6 @@
       <City>Interior</City>
       <State>SD</State>
       <Zip>57750</Zip>
-    </Address>
-    
-  </NationalPark>
-    <NationalPark Rating="4.3">
-    <Name>Bryce Canyon</Name>
-    <Phone>435-834-5322</Phone>
-    <Phone>435-834-4747</Phone>
-    <Address NearestAirport="Cedar City">
-      <Number>1</Number>
-      <Street>Bryce Canyon Scenic Drive</Street>
-      <City>Bryce</City>
-      <State>UT</State>
-      <Zip>84764</Zip>
     </Address>
   </NationalPark>
 </NationalParks>
